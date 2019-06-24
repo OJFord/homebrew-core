@@ -12,6 +12,6 @@ class Loginitems < Formula
   end
 
   test do
-    loginitems -h
+    system "#{bin}/loginitems", "-h"
   end
 end
